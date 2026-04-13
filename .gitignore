@@ -9,4 +9,3 @@ coverage
 *.suo
 *.lock
 src/utils/vendor/
-graphify-out/
