@@ -1,7 +1,7 @@
-# Graph Report - .  (2026-04-13)
+# Graph Report - /Users/a123/tsproject/claude-code  (2026-04-13)
 
 ## Corpus Check
-- Large corpus: 3013 files · ~3,636,362 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
+- Large corpus: 3014 files · ~3,693,844 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
 
 ## Summary
 - 12411 nodes · 18268 edges · 1709 communities detected
@@ -9,21 +9,21 @@
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_API Utilities|API Utilities]]
-- [[_COMMUNITY_ANSI & Terminal|ANSI & Terminal]]
-- [[_COMMUNITY_Plugin Settings|Plugin Settings]]
-- [[_COMMUNITY_App State|App State]]
-- [[_COMMUNITY_API Adapter|API Adapter]]
-- [[_COMMUNITY_Advisor System|Advisor System]]
-- [[_COMMUNITY_Async Hooks|Async Hooks]]
-- [[_COMMUNITY_Bootstrap State|Bootstrap State]]
-- [[_COMMUNITY_Terminal Detection|Terminal Detection]]
-- [[_COMMUNITY_Abort Controllers|Abort Controllers]]
-- [[_COMMUNITY_Session Search|Session Search]]
-- [[_COMMUNITY_Permission Bypass|Permission Bypass]]
-- [[_COMMUNITY_ANSI Colors|ANSI Colors]]
-- [[_COMMUNITY_Claude API|Claude API]]
-- [[_COMMUNITY_Channel Notifications|Channel Notifications]]
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
@@ -1745,63 +1745,63 @@
 
 ## Communities
 
-### Community 0 - "API Utilities"
+### Community 0 - "Community 0"
 Cohesion: 0.0
 Nodes (462): filterSwarmFieldsFromSchema(), logAPIPrefix(), logStripOnce(), splitSysPromptPrefix(), toolToAPISchema(), backupTerminalPreferences(), checkAndRestoreTerminalBackup(), getTerminalPlistPath() (+454 more)
 
-### Community 1 - "ANSI & Terminal"
+### Community 1 - "Community 1"
 Cohesion: 0.01
 Nodes (209): getBidi(), hasRTLCharacters(), needsBidi(), reorderBidi(), reverseRange(), reverseRangeNumbers(), getClearTerminalSequence(), isMintty() (+201 more)
 
-### Community 2 - "Plugin Settings"
+### Community 2 - "Community 2"
 Cohesion: 0.01
 Nodes (252): cleanupOrphanedPluginVersionsInBackground(), clearAllCaches(), clearAllPluginCaches(), getInstalledVersionPaths(), getOrphanedAtPath(), markPluginVersionOrphaned(), processOrphanedPluginVersion(), readSubdirs() (+244 more)
 
-### Community 3 - "App State"
+### Community 3 - "Community 3"
 Cohesion: 0.01
 Nodes (162): useAppState(), useAppStateStore(), useAppStore(), useSetAppState(), fetchBootstrapAPI(), fetchBootstrapData(), applyExtraCACertsFromConfig(), getExtraCertsPathFromConfig() (+154 more)
 
-### Community 4 - "API Adapter"
+### Community 4 - "Community 4"
 Cohesion: 0.01
 Nodes (104): ApiSearchAdapter, extractSearchResults(), makeToolSchema(), BingSearchAdapter, extractBingResults(), extractSnippet(), resolveBingUrl(), isBriefEnabled() (+96 more)
 
-### Community 5 - "Advisor System"
+### Community 5 - "Community 5"
 Cohesion: 0.01
 Nodes (176): canUserConfigureAdvisor(), getAdvisorConfig(), getExperimentAdvisorModels(), getInitialAdvisorSetting(), isAdvisorEnabled(), aliasMatchesParentTier(), getAgentModel(), getDefaultSubagentModel() (+168 more)
 
-### Community 6 - "Async Hooks"
+### Community 6 - "Community 6"
 Cohesion: 0.01
 Nodes (107): appendTaskOutput(), cleanupTaskOutput(), _clearOutputsForTest(), DiskTaskOutput, ensureOutputDir(), evictTaskOutput(), flushTaskOutput(), getOrCreateOutput() (+99 more)
 
-### Community 7 - "Bootstrap State"
+### Community 7 - "Community 7"
 Cohesion: 0.01
 Nodes (10): flushInteractionTime(), flushInteractionTime_inner(), getInitialState(), getIsNonInteractiveSession(), getTotalOutputTokens(), getTurnOutputTokens(), preferThirdPartyAuthentication(), resetStateForTests() (+2 more)
 
-### Community 8 - "Terminal Detection"
+### Community 8 - "Community 8"
 Cohesion: 0.02
 Nodes (83): InProcessBackend, findAvailableTask(), formatAsTeammateMessage(), formatTaskAsPrompt(), runInProcessTeammate(), sendIdleNotification(), sendMessageToLeader(), startInProcessTeammate() (+75 more)
 
-### Community 9 - "Abort Controllers"
+### Community 9 - "Community 9"
 Cohesion: 0.01
 Nodes (63): createAbortController(), createChildAbortController(), addApiRequestToCache(), appendToFile(), createDumpPromptsFetch(), dumpRequest(), getDumpPromptsPath(), hashString() (+55 more)
 
-### Community 10 - "Session Search"
+### Community 10 - "Community 10"
 Cohesion: 0.02
 Nodes (93): extractTranscript(), logContainsQuery(), collectRecentSuccessfulTools(), collectSurfacedMemories(), countAutoModeAttachmentsSinceLastExit(), countPlanModeAttachmentsSinceLastExit(), extractAgentMentions(), extractAtMentionedFiles() (+85 more)
 
-### Community 11 - "Permission Bypass"
+### Community 11 - "Community 11"
 Cohesion: 0.02
 Nodes (138): checkAgentDescriptions(), checkClaudeMdFiles(), checkContextWarnings(), checkMcpTools(), checkUnreachableRules(), allWorkingDirectories(), checkEditableInternalPath(), checkPathSafetyForAutoEdit() (+130 more)
 
-### Community 12 - "ANSI Colors"
+### Community 12 - "Community 12"
 Cohesion: 0.02
 Nodes (76): addLineNumber(), addMarker(), alignAbsolute(), ansi256FromRgb(), ansiIdx(), applyBackground(), asTerminalEscaped(), boundAxis() (+68 more)
 
-### Community 13 - "Claude API"
+### Community 13 - "Community 13"
 Cohesion: 0.02
 Nodes (119): addCacheBreakpoints(), assistantMessageToMessageParam(), cleanupStream(), clearStreamIdleTimers(), configureEffortParams(), configureTaskBudgetParams(), getAPIMetadata(), getCacheControl() (+111 more)
 
-### Community 14 - "Channel Notifications"
+### Community 14 - "Community 14"
 Cohesion: 0.02
 Nodes (86): getChannelAllowlist(), isChannelAllowlisted(), findChannelEntry(), gateChannelServer(), getEffectiveChannelAllowlist(), hashToId(), shortRequestId(), callIdeRpc() (+78 more)
 
@@ -11204,17 +11204,17 @@ Nodes (0):
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `getPrompt()` connect `API Adapter` to `Community 30`?**
+- **Why does `getPrompt()` connect `Community 4` to `Community 30`?**
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Why does `checkPathConstraints()` connect `Community 20` to `Community 27`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `ComputerUseInputAPI`, `MalformedCommandError`, `AutoUpdaterError` to the rest of the system?**
   _7 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `API Utilities` be split into smaller, more focused modules?**
+- **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.0 - nodes in this community are weakly interconnected._
-- **Should `ANSI & Terminal` be split into smaller, more focused modules?**
+- **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.01 - nodes in this community are weakly interconnected._
-- **Should `Plugin Settings` be split into smaller, more focused modules?**
+- **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.01 - nodes in this community are weakly interconnected._
-- **Should `App State` be split into smaller, more focused modules?**
+- **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.01 - nodes in this community are weakly interconnected._
