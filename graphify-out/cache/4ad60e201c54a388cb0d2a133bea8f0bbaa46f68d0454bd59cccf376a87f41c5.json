@@ -1,1 +1,0 @@
-{"nodes": [{"id": "src_ink_instances_ts", "label": "instances.ts", "file_type": "code", "source_file": "src/ink/instances.ts", "source_location": "L1"}], "edges": [{"source": "src_ink_instances_ts", "target": "src_ink_ink_ts", "relation": "imports_from", "confidence": "EXTRACTED", "source_file": "src/ink/instances.ts", "source_location": "L7", "weight": 1.0}]}

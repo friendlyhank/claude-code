@@ -1,0 +1,25 @@
+# Community 1370
+
+> 1 nodes · cohesion 1.00
+
+## Key Concepts
+
+- **src_components_agents_src_tools_listmcpresourcestool_listmcpresourcestool_ts** (0 connections) — `src/components/agents/src/tools/ListMcpResourcesTool/ListMcpResourcesTool.ts`
+
+## Relationships
+
+- No strong cross-community connections detected
+
+## Source Files
+
+- `src/components/agents/src/tools/ListMcpResourcesTool/ListMcpResourcesTool.ts`
+
+## Audit Trail
+
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
+- AMBIGUOUS: 0 (0%)
+
+---
+
+*Part of the graphify knowledge wiki. See [[index]] to navigate.*
