@@ -20,7 +20,7 @@
 
 | 文档 | 大小 | 核心内容 |
 |------|------|----------|
-| [[01-tool-system-architecture]] | 9.5K | 工具架构、注册发现、权限过滤、MCP集成 |
+| [[01-tool-orchestration]] | 9.5K | 工具编排、注册发现、权限过滤、MCP集成 |
 | [[02-file-tools]] | 8.2K | Read/Edit/Write/Glob/Grep/Notebook |
 | [[03-shell-tools]] | 8.7K | Bash/PowerShell、安全策略、沙箱隔离 |
 | [[04-agent-tools]] | 9.2K | Agent/Task/Todo/TaskStop、多代理协作 |
@@ -57,7 +57,7 @@
 
 | 文档 | 大小 | 核心内容 |
 |------|------|----------|
-| [[18-plugin-architecture]] | 9.9K | 插件生命周期、Marketplace集成、热加载 |
+| [[18-plugin-system]] | 9.9K | 插件生命周期、Marketplace集成、热加载 |
 | [[19-skill-system]] | 11K | Skill定义与加载、提示词模板、钩子机制 |
 | [[20-hook-system]] | 13K | Hook类型与注册、异步执行、前置后置处理 |
 | [[21-mcp-integration]] | 14K | MCP服务器管理、资源映射、传输协议 |
@@ -169,13 +169,13 @@
 ### 阅读路径
 
 **初学者路径**：
-1. 01-tool-system-architecture → 理解工具系统全貌
+1. 01-tool-orchestration → 理解工具系统全貌
 2. 09-message-processing → 理解对话流程
 3. 15-permissions → 理解权限模型
 4. 28-settings → 理解配置体系
 
 **开发者路径**：
-1. 18-plugin-architecture → 扩展系统架构
+1. 18-plugin-system → 扩展系统机制
 2. 19-skill-system → 技能开发指南
 3. 20-hook-system → 钩子机制详解
 4. 37-agent-sdk → SDK集成方案
